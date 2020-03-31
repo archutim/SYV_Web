@@ -1,0 +1,91 @@
+@media (max-width: 550px) {
+    .card_div{
+        margin-left: 5%;
+    }
+	.partner_card{
+		width: 90%;
+        margin-left: 0%;
+        margin-bottom: 5%;
+	}
+	.partner_card_end{
+        margin-left: 0%;
+        width: 90%;
+        margin-bottom: 5%;
+	}
+}
+
+@media (min-width: 550px) {
+    .card_div{
+        margin-left: 10%;
+    }
+	.partner_card{
+		width: 42%;
+		margin-left: 0%;
+		margin-right: 6%;
+        float: left;
+        margin-bottom: 3%;
+	}
+	.partner_card_end{
+        margin-left: 0%;
+        width: 42%;
+        margin-bottom: 3%;
+	}
+}
+
+@media (min-width: 750px) {
+    .card_div{
+        margin-left: 2%;
+    }
+	.partner_card{
+		width: 30%;
+		margin-left: 0%;
+		margin-right: 3%;
+        float: left;
+        margin-bottom: 3%;
+	}
+	.partner_card_end{
+        margin-left: 0%;
+        width: 30%;
+        margin-bottom: 3%;
+	}
+}
+
+@media (min-width: 1150px) {
+    .card_div{
+        margin-left: 4%;
+    }
+	.partner_card{
+		width: 20%;
+		margin-left: 0%;
+		margin-right: 5%;
+        float: left;
+	}
+	.partner_card_end{
+        margin-left: 0%;
+		width: 20%;
+	}
+}
+.Coordinator{
+    background-color: rgba(255, 99, 71, 0.733);
+}
+.Vice{
+    background-color: rgba(60, 160, 151, 0.746);
+}
+.Executive{
+    background-color: rgba(67, 78, 95, 0.746);
+}
+.Activities{
+    background-color: rgba(153, 205, 50, 0.808);
+}
+.Duty{
+    background-color: rgba(246, 93, 152, 0.76);
+}
+.Diet{
+    background-color: rgba(52, 103, 243, 0.808);
+}
+.Equipment{
+    background-color: rgba(238, 130, 238, 0.794);
+}
+.Instructor{
+    background-color: rgba(244, 245, 179, 0.815);
+}
