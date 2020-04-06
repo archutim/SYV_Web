@@ -1,87 +1,115 @@
 @media (max-width: 750px) {
-	.intro_text{
-		width: 100%;
-	}
-	.intro_image{
-		margin-top: 2%;
-		width: 100%;
-		float: left;
-	}	
-	.ob_div{
-		width: 100%; 
-		height: 500px;
-		margin-bottom: 5%;
-	}	
-	.a_font{
-		font-style: oblique;
-		color: black;
-	}
-	.a_font:hover{
-		color: aliceblue;
-	}	
-	p{
-		font-size: 35px;
-		text-align: center;
-	}
-	.photo-col {
-		margin-top: 3%;
-		width: 100%;
-	}
+    p {
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 18px;
+    }
+    .intro_image {
+        margin-top: 2%;
+        width: 100%;
+        float: left;
+    }
+    .ob_div {
+        width: 100%;
+        height: 700px;
+        margin-bottom: 5%;
+    }
+    .photo-col {
+        margin-top: 3%;
+        width: 100%;
+    }
+    h1 {
+        font-size: 27px;
+        color: rgb(255, 164, 179);
+        -webkit-text-stroke: 2px black; 
+        font-family: "Comic Sans MS"; 
+        font-weight: bold;
+    }
 }
 
-@media (min-width: 751px) {	
-	.intro_text{
-		margin-top: 2%;
-		margin-left: 3%;
-		width: 35%;
-		float: left;
-	}
-	.intro_image{
-		margin-top: 2%;
-		margin-left: 3%;
-		margin-right: 5%;
-		width: 50%;	
-		float: right;	
-	}
-	iframe{
-		width: 800px;
-		height: 600px;
-		margin-bottom: 50px;
-		margin-left: 3%;
-	}
-	h4{
-		margin-left: 3%;
-	}
-	.ob_div{
-		width: 100%; 
-		height: 700px; 
-		margin-bottom: 5%;
-	}
-	.a_font{
-		font-style: oblique;
-		color: black;
-	}
-	.a_font:hover{
-		color: aliceblue;
-	}
-	p{
-		font-size: 60px;
-		text-align: center;
-	}
-	/*	photo garally*/
-	.photo-col {
-		margin-top: 3%;
-		width: 100%;
-	}
+@media (min-width: 751px) {
+    p {
+        margin-top: 3%;
+        font-size: 22px;
+    }
+    .intro_image {
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 5%;
+        width: 50%;
+        float: right;
+    }
+    iframe {
+        width: 800px;
+        height: 600px;
+        margin-bottom: 50px;
+        margin-left: 3%;
+    }
+    h4 {
+        margin-left: 3%;
+    }
+    .ob_div {
+        width: 100%;
+        height: 600px;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    /*	photo garally*/
+    .photo-col {
+        margin-top: 3%;
+        width: 100%;
+    }
+    .content {
+        float: left;
+        width: 38%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    h1 {
+        font-size: 30px;
+        color: rgb(255, 164, 179);
+        -webkit-text-stroke: 2px black; 
+        font-family: "Comic Sans MS"; 
+        font-weight: bold;
+    }
 }
+
+@media (min-width: 1400px) {
+    p {
+        margin-top: 3%;
+        font-size: 25px;
+    }
+    .ob_div {
+        width: 100%;
+        height: 700px;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    h1 {
+        font-size: 40px;
+        color: rgb(255, 164, 179);
+        -webkit-text-stroke: 2px black; 
+        font-family: "Comic Sans MS"; 
+        font-weight: bold;
+    }
+}
+
+
+/*  Global  */
+
 .photo-sm {
-	background-color: deepskyblue;
-	width: 100%;
-	overflow: hidden;
+    background-color: deepskyblue;
+    width: 100%;
+    overflow: hidden;
 }
 
 .photo-big {
-	background-color: deeppink;
-	width: 100%;
-	overflow: hidden;
+    background-color: deeppink;
+    width: 100%;
+    overflow: hidden;
+}
+.bu{
+    margin-top: 1%;
+    font-weight: bold;
 }

@@ -4,7 +4,7 @@
 <head lang="en">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<title>Homepage</title>
+	<title>SYV_Search</title>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/home.css">
 	<script src="../js/jquery-3.4.1.slim.min.js"
@@ -18,7 +18,7 @@
 
 <body style="background-color: rgba(255, 251, 0, 0.322);">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand">Title</a>
+		<a class="navbar-brand">Sunshine Youth Volunteers</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
 						target="_blank">facebook</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="../partner.html">Partner Intro.</a>
+					<a class="nav-link" href="../partner.html">Partners Intro.</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -43,7 +43,7 @@
 						Activities
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="../activity1.html">act1</a>
+						<a class="dropdown-item" href="../Activity1.html">Taoyuan Elementarty School</a>
 					</div>
 				</li>
 			</ul>
@@ -61,4 +61,21 @@
 	<p style="font-style: herit; font-size: 50px; text-align: center; color: rgba(47, 189, 214, 0.87);">
 		<?php echo("No result.");	?>
 	</p>
+	<?php 
+		if($_POST["search"] == "login")	echo("login success!\n");
+	?>
+ <?php
+$servername = "localhost";
+$username = "archutim";
+$password = "zxc89050223";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?> 
 </body>
